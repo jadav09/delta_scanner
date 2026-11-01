@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node / frontend build artifacts
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+.pnpm-store/
+
+# Local runtime data and logs
+logs/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
